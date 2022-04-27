@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dde7f1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #8E97A5;
+}
+
+.weather-card {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: 10px solid #E5EFF9;
+  border-radius: 25px;
+  gap: 20px;
+}
+
+.weather-card__extra {
+  border-left: 1px solid #E5EFF9;
+  padding-left: 20px;
+}
+
+.weather-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.weather-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather-list small {
+  flex: 2
+}
+
+.weather-list b {
+  flex: 1;
+  text-align: right;
 }
