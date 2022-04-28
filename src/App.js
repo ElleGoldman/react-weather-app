@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 const getWether = () => {
-  return fetch('http://api.weatherapi.com/v1/forecast.json?' + new URLSearchParams({
+  return fetch('https://api.weatherapi.com/v1/forecast.json?' + new URLSearchParams({
     key: '9127f88fc0774f1c88c133339222104',
     q: 'London',
     days: 3,
