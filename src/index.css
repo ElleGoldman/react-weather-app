@@ -63,3 +63,27 @@ p {
   flex: 1;
   text-align: right;
 }
+
+h1 > small {
+  outline: 3px solid red;
+}
+
+button {
+  width: 100%;
+  max-width: 320px;
+  height: 48px;
+  border: 0;
+  border-radius: 10px;
+  background: #5fa4ee;
+  color: white;
+  font-size: 16px;
+}
+
+button:not([disabled]):hover {
+  background: #4696ec;
+}
+
+
+button[disabled] {
+  opacity: 0.3;
+}
